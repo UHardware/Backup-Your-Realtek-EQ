@@ -30,4 +30,15 @@ After creating the profile, we need to close ALL audio settings <br>
   * confirm that you run the application with administrator privileges <br>
   CTRL + F, type profile name <br>
   <img src="https://i.imgur.com/iBC5rKy.png" width="600" />
+  3. Copy ONLY the second line of the configuration. It contains the HEX value. <br>
+  Create a new text document according to the template below:
+  <img src="https://i.imgur.com/2SYY4N7.png" width="600" />
+  4. Now open regedit and search EACH directory ".../Render/xxxxxxxxxxx/FxProperties" for a file containing the name of the previously created example profile "example123"
+  <img src="https://i.imgur.com/GZmjkaH.png" width="1200" />
+  5. Find the matching REG_BINARY configuration file and copy |X Y Z|
+  Paste |X Y Z| in the appropriate places according to the instructions from the previous pictures.
+  <img src="https://i.imgur.com/7ikpLiV.png" width="1200" />
+  <img src="https://i.imgur.com/2SYY4N7.png" width="600" />
+  6. After making changes, save the file as a .reg extension and execute it.
+
 
