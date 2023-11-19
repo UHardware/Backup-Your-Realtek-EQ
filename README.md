@@ -33,6 +33,22 @@ After creating the profile, we need to close ALL audio settings <br>
   3. Copy ONLY the second line of the configuration. It contains the HEX value. <br>
   Create a new text document according to the template below:
   <img src="https://i.imgur.com/2SYY4N7.png" width="600" />
+  <br>
+  
+  Template: <br>
+
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX}\FxProperties]
+"{YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY},Z"=hex:41,00,b6,99,01,00,00,00,85,00,\
+  00,00,e9,00,00,00,85,00,00,00,91,fe,ff,ff,9c,ff,ff,ff,a7,00,00,00,0b,01,00,\
+  00,85,00,00,00,15,02,00,00,20,03,00,00
+```
+<br>
+Note: The HEX Code given in this template is my own configuration for Klipsch R51-M + Loxjie A30. You will need to paste your own HEX Code from your backup!
+<br>
+
   4. Now open regedit and search EACH directory ".../Render/xxxxxxxxxxx/FxProperties" for a file containing the name of the previously created example profile "example123"
   <img src="https://i.imgur.com/GZmjkaH.png" width="1200" />
   5. Find the matching REG_BINARY configuration file and copy |X Y Z|
@@ -43,6 +59,7 @@ After creating the profile, we need to close ALL audio settings <br>
   <img src="https://i.imgur.com/t7RzkMA.png" width="600" />
 <h3 align="left">and... Voilà! The settings have been restored correctly!</h3> 
 <img src="https://i.imgur.com/rkeS44e.png" width="600" />
+
 
 
 
