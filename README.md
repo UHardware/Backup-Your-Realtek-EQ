@@ -11,7 +11,7 @@ In this guide, I'll show you how to protect and restore your audio settings on a
   2. Type "regedit" and hit Enter
   3. Confirm that you run the application with administrator privileges
   <img src="https://i.imgur.com/MMLgd8B.png" width="400" />
-  4. Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render
+  4. Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render <br>
   5. Right-click on the "Render" folder and select "Export", save the file in a safe place
   <img src="https://i.imgur.com/9hvtvfg.png" width="400" />  
   <img src="https://i.imgur.com/RTWlKjw.png" align="center" width="400" />
