@@ -40,5 +40,6 @@ After creating the profile, we need to close ALL audio settings <br>
   <img src="https://i.imgur.com/7ikpLiV.png" width="1200" />
   <img src="https://i.imgur.com/2SYY4N7.png" width="600" />
   6. After making changes, save the file as a .reg extension and execute it.
+  <img src="https://i.imgur.com/t7RzkMA.png" width="600" />
 
 
